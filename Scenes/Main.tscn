@@ -1,0 +1,46 @@
+[gd_scene load_steps=7 format=3 uid="uid://npl50rwvww84"]
+
+[ext_resource type="Texture2D" uid="uid://b4fa4lkw1tpii" path="res://addons/rocky-dunes-unity/rocky-dunes1_albedo.png" id="1_xhjpa"]
+[ext_resource type="PackedScene" uid="uid://c15t1yhasbc6s" path="res://Scenes/Swordsman.tscn" id="3_1keb2"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_tne12"]
+vertices = PackedVector3Array(-29.5, 0.5, -29.5, -29.5, 0.5, 29.5, 29.5, 0.5, 29.5, 29.5, 0.5, -29.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mdhu3"]
+albedo_texture = ExtResource("1_xhjpa")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_bosnc"]
+size = Vector2(60, 60)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fr6nf"]
+size = Vector3(60, 2, 60)
+
+[node name="Main" type="Node"]
+
+[node name="Ground" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+navigation_mesh = SubResource("NavigationMesh_tne12")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground/NavigationRegion3D"]
+material_override = SubResource("StandardMaterial3D_mdhu3")
+mesh = SubResource("PlaneMesh_bosnc")
+skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0332022, 0, -0.053894)
+shape = SubResource("BoxShape3D_fr6nf")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 10, 0)
+
+[node name="Swordsman" parent="." instance=ExtResource("3_1keb2")]
+
+[node name="CameraPivot" type="Marker3D" parent="Swordsman"]
+
+[node name="Camera3D" type="Camera3D" parent="Swordsman/CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 5, 4)
+size = 40.0

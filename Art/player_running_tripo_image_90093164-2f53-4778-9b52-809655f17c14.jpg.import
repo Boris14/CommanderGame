@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://cf5wp0tr17sqe"
+path.s3tc="res://.godot/imported/player_running_tripo_image_90093164-2f53-4778-9b52-809655f17c14.jpg-88435b8a3fb79c201bd9aabe3b1952f2.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "8b19d6b69f977a26368bd2e7a14d9e8e"
+}
+
+[deps]
+
+source_file="res://Art/player_running_tripo_image_90093164-2f53-4778-9b52-809655f17c14.jpg"
+dest_files=["res://.godot/imported/player_running_tripo_image_90093164-2f53-4778-9b52-809655f17c14.jpg-88435b8a3fb79c201bd9aabe3b1952f2.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
