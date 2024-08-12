@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://npl50rwvww84"]
+[gd_scene load_steps=8 format=3 uid="uid://npl50rwvww84"]
 
 [ext_resource type="Texture2D" uid="uid://b4fa4lkw1tpii" path="res://addons/rocky-dunes-unity/rocky-dunes1_albedo.png" id="1_xhjpa"]
-[ext_resource type="PackedScene" uid="uid://c15t1yhasbc6s" path="res://Scenes/Swordsman.tscn" id="3_1keb2"]
+[ext_resource type="PackedScene" uid="uid://btgcpnc2yqnyk" path="res://Scenes/Characters/Player.tscn" id="2_5cs05"]
+[ext_resource type="PackedScene" uid="uid://c15t1yhasbc6s" path="res://Scenes/Characters/Swordsman.tscn" id="3_elq5c"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_tne12"]
 vertices = PackedVector3Array(-29.5, 0.5, -29.5, -29.5, 0.5, 29.5, 29.5, 0.5, 29.5, 29.5, 0.5, -29.5)
@@ -37,10 +38,13 @@ shape = SubResource("BoxShape3D_fr6nf")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 10, 0)
 
-[node name="Swordsman" parent="." instance=ExtResource("3_1keb2")]
+[node name="Player" parent="." instance=ExtResource("2_5cs05")]
 
-[node name="CameraPivot" type="Marker3D" parent="Swordsman"]
+[node name="CameraPivot" type="Marker3D" parent="Player"]
 
-[node name="Camera3D" type="Camera3D" parent="Swordsman/CameraPivot"]
+[node name="Camera3D" type="Camera3D" parent="Player/CameraPivot"]
 transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 5, 4)
 size = 40.0
+
+[node name="Swordsman" parent="." instance=ExtResource("3_elq5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.688615, 0, 1.21161)
