@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Projects\\Godot\\CommanderGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|d:\\game projects\\godot\\commandergame\\scripts\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|solutionrelative:scripts\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|d:\\game projects\\godot\\commandergame\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|solutionrelative:scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|d:\\game projects\\godot\\commandergame\\scripts\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32CD984-8EDA-4EBB-9138-9B8F222FF1FC}|CommanderGame.csproj|solutionrelative:scripts\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "Scripts\\Controllers\\Controller.cs",
+              "ToolTip": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Controllers\\Controller.cs",
+              "RelativeToolTip": "Scripts\\Controllers\\Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:28:30.084Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Scripts\\Character.cs",
+              "ToolTip": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Character.cs",
+              "RelativeToolTip": "Scripts\\Character.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T21:11:47.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Scripts\\Controllers\\PlayerController.cs",
+              "ToolTip": "D:\\Game Projects\\Godot\\CommanderGame\\Scripts\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "Scripts\\Controllers\\PlayerController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T02:24:30.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
